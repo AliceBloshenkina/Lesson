@@ -40,7 +40,8 @@ def main():
         ch.append(b)
         z +=1
 
-    print(ch)
+    for i in ch:
+        print(i, '\n')
 
 
 if __name__ == '__main__':
